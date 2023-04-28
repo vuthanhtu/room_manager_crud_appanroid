@@ -1,0 +1,1 @@
+# room_manager_crud_appanroid
