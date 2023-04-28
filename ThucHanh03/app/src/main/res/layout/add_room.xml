@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/TVAddRoom"
+        android:text="ADD ROOM"
+        android:textSize="30sp"
+        android:textColor="#000"
+        android:textAlignment="center"/>
+    <EditText
+        android:id="@+id/edtArea"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Area">
+    </EditText>
+    <EditText
+        android:id="@+id/edtRent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Rent Price">
+    </EditText>
+    <EditText
+        android:id="@+id/edtElectric"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Electric Price/Kwh">
+    </EditText>
+    <EditText
+        android:id="@+id/edtWater"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Water Price/M3">
+    </EditText>
+    <EditText
+        android:id="@+id/edtZone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Zone">
+    </EditText>
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#23C5DA"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:text="Add">
+
+    </Button>
+</LinearLayout>

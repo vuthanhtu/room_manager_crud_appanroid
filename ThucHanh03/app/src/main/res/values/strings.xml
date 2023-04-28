@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ThucHanh03</string>
+    <string-array name="names">
+        <item>Area</item>
+        <item>Rent Price</item>
+        <item>Electric</item>
+    </string-array>
+</resources>

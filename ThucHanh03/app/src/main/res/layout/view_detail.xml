@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/TVViewDetailRoom"
+        android:text="VIEW DETAIL ROOM"
+        android:textSize="30sp"
+        android:textColor="#000"
+        android:textAlignment="center"/>
+    <TextView
+        android:id="@+id/idTVArea"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        >
+    </TextView>
+    <TextView
+        android:id="@+id/idTVRent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        >
+    </TextView>
+    <TextView
+        android:id="@+id/idTVElectric"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        >
+    </TextView>
+    <TextView
+        android:id="@+id/idTVWater"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        >
+    </TextView>
+    <TextView
+        android:id="@+id/idTVZone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        >
+    </TextView>
+    <Button
+        android:id="@+id/btnDelete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#23C5DA"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:text="Delete">
+
+    </Button>
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#23C5DA"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:text="Back">
+
+    </Button>
+</LinearLayout>
